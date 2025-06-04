@@ -42,5 +42,5 @@ def main(folder: Path) -> None:
     print(f"Assemblage terminé : {len(assembled_records)} séquences écrites dans {output_path}")
 
 if __name__ == "__main__":
-    target_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("data")
+    target_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("data/phages")
     main(target_dir)
