@@ -1,0 +1,6 @@
+# fichiers uv pour venv
+.venv/
+.python-version
+pyproject.toml
+uv.lock
+data/genbank_files
